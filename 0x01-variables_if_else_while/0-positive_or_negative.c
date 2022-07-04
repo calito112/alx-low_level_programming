@@ -8,11 +8,11 @@
 
 /**
  *
- *  * main - check if a random number is positive or negative
+ *   *main - check if a random number is positive or negative
  *
- *   * Return: 0 if error
+ *   *Return: 0 if error
  *
- *    */
+ */
 
 int main(void)
 
