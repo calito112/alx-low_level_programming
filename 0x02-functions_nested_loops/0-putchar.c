@@ -11,15 +11,15 @@
 int main(void)
 {
 
-	_putschar('_');
-	_putschar('p');
-	_putschar('u');
-	_putschar('t');
-	_putschar('c');
-	_putschar('h');
-	_putschar('a');
-	_putschar('r');
-	_putschar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
