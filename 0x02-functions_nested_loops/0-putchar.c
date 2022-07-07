@@ -1,29 +1,25 @@
 #include "main.h"
 
 /**
- *main - this is my method
+ *main - a program that prints __putchar
  *
- *description - a program that prints __putchar
+ *description - putchar
  *
  *Return: returns 0 always
  */
 
 int main(void)
 {
-char var[] = "_putchar";
 
-int i;
+	_putschar('_');
+	_putschar('p');
+	_putschar('u');
+	_putschar('t');
+	_putschar('c');
+	_putschar('h');
+	_putschar('a');
+	_putschar('r');
+	_putschar('\n');
 
-int l = sizeof(var) / sizeof(var[0]);
-
-for (i = 0; i < l - 1; i++)
-
-{
-
-_putchar(var[i]);
-
-}
-_putchar('\n');
-
-return (0);
+	return (0);
 }
