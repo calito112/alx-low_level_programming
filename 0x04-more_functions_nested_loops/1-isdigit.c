@@ -2,11 +2,11 @@
 
 /**
 * _isdigit - function checks for digit
-*
+* 
 * @c: integer argument
 *
 * Return: success
-*/
+*/ 
 
 int _isdigit(int c)
 {
