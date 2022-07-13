@@ -1,15 +1,18 @@
 #include "main.h"
 
 /**
-* _puts - this is a function that puts
-* @str: a param to _puts function
-*/
+ * _puts - prints a string
+ * @str: string to be printed
+ */
 
 void _puts(char *str)
 {
-for (; *str != '\0'; str++)
-{
-_putchar(*str);
-}
-_putchar('\n');
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
