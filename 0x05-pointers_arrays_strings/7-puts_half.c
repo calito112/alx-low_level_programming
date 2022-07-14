@@ -1,20 +1,23 @@
+#include <string.h>
 #include "main.h"
 
 /**
- * puts2 - print even number of a string
- * @str: string variable
+ * puts_half - print the last half of a string
+ * @s: pointer to the string variable s
  */
 
-void puts_half(char *str)
+void puts_half(char *s)
 {
-int x, y, i;
+	int len = strlen(s), i;
 
-x = strlen(str);
-if (x % 2 == 1)
-y - x / 2;
-else
-y = x / 2;
-for (i = y; i < x; i++)
-_putchar(str[i]);
-_putchar('\n');
+	if (len % 2 == 0)
+	{
+		for (i = len / 2; i < len; i++)
+			_putchar(s[i]);
+	}
+	else
+		for (i = (len / 2) + 1; i < len; i++)
+			_putchar(s[i]);
+
+	_putchar('\n');
 }
