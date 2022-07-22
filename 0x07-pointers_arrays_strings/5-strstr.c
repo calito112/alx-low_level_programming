@@ -8,7 +8,7 @@
  * Return: pointer to the first position of the c.
  */
 
-char *_strstr(char *haystack, char *needle)
+char *_strstr(char *s, char *c)
 {
-return (strstr(haystack, needle));
+return (strstr(s, c));
 }
