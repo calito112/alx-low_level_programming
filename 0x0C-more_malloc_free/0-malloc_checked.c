@@ -4,18 +4,18 @@
 #include <limits.h>
 
 /**
- * malloc_checked - allocates a dynamic memory
+ * malloc_checked - allocates memory
  * @b: size of memory to be created
- * Return: pointer to the memory space created
+ * Return: pointer to the memory
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int *ptr;
+	int *p;
 
-	ptr = malloc(b);
-	if (ptr == NULL)
+	p = malloc(b);
+	if (p == NULL)
 		exit(98);
 
-	return (ptr);
+	return (p);
 }
