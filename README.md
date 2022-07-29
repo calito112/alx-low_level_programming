@@ -1,6 +1,6 @@
 # Hi there! Welcome to my alx-low_level_programming hub 👋
 
-#### Are you an aspiring software developer and looking to get a grasp on c programming? Then this repo is for you!
+#### Are you an aspiring software developer and looking to get a grasp on c programming? Then this repo is for you! :fire:
 
 ## So here's the gist :blush:
 
